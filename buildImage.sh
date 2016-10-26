@@ -7,7 +7,7 @@ if [ -z "$1" ]
     echo "No tag number supplied, should perform like : $0 CKB-XXXX"
     exit 1
 fi
-imageName=kiwi/baselayout
+imageName=kiwi-baselayout
 
 echo
 echo "**********************************************************************"
