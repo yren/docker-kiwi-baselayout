@@ -21,4 +21,4 @@ echo "**********************************************************************"
 echo "* docker push $dockerrepo/$imageName:$1 "
 echo "**********************************************************************"
 echo
-docker push $dockerrepo/$imageName:$1
+pushImageToDockerHub $imageName $1
